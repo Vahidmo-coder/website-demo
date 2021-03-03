@@ -1,0 +1,52 @@
+/*======================================================
+                       media queries 
+========================================================*/ 
+
+/* large devices, desktops and laptops */
+@media (min-width: 1200px) {
+    /* ok */
+}
+
+/* medium devices (landscape tablets and medium desktops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+     /* ok */
+}
+
+/* small devices (landscape tablets and medium desktops) */
+@media (min-width: 768px) and (max-width: 991px) {
+    
+}
+
+/* extra-small devices (landscape phones and portrait tablets) */
+@media (max-width: 767px) {
+    #home-heading h3 {
+        font-size: 30px;
+    }
+
+    .btn-general {
+        padding: 6px 22px;
+        font-size: 12px;
+    }
+
+    .stats-item {
+        padding: 20px 0;
+    }
+}
+
+/* extra-small devices (smaller devices) */
+@media (max-width: 480px) {
+         /* ok */
+}
+
+/* extra-small devices (smaller devices) */
+@media (max-width: 320px) {
+    .service-item-icon {
+        font-size: 70%;
+        padding: 7px;
+        margin-right: 7px;
+    }
+
+    .service-item-caption h3 {
+        font-size: 90%;
+    }
+}
