@@ -112,11 +112,11 @@ $(function(){
         if($(this).scrollTop() < 50 ) {
             //hide nav
             $('nav').removeClass('navbar-trans')
-            $('#back-to-top').fadeOut()
+            $('#back-to-top').addClass('back-to-top--invisible')
         } else {
             //show nav
             $('nav').addClass('navbar-trans')
-            $('#back-to-top').fadeIn()
+            $('#back-to-top').removeClass('back-to-top--invisible')
         }
     })
 })

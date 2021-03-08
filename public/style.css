@@ -703,3 +703,8 @@ nav ul.navbar-nav {
         margin-bottom: 30px;
     }
 }
+
+.back-to-top--invisible {
+    opacity: 0;
+    visibility: hidden;
+}
